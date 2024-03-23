@@ -2,6 +2,7 @@ import pandas as pd
 import PyPDF2
 import docx
 
+#TESTING PHASE
 def read_csv(file_path):
     df = pd.read_csv(file_path)
     return df.to_string(index=False)
