@@ -35,3 +35,12 @@ This program demonstrates how to use the BERT model for document summarization t
 
    ```bash
    git clone https://github.com/yourusername/your-repository.git
+
+Install the required Python libraries:
+   pip install pandas PyPDF2 python-docx transformers
+
+### Usage
+
+Place your CSV file as example.csv, PDF file as example.pdf, and Word document as example.docx in the project directory.
+Run the main.py script:
+
